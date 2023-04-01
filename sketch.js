@@ -66,7 +66,7 @@ function draw() {
     if (playerArrows[i] !== undefined) {
       playerArrows[i].display();
     }
-    // }
+     }
 
     // for (var i) {
     //   if (playerArrows[i] !== undefined) {
@@ -80,7 +80,7 @@ function draw() {
     textSize(40);
     text("EPIC ARCHERY", width / 2, 100);
   }
-}
+
 
 function keyPressed() {
   if (keyCode === 32) {
